@@ -29,7 +29,14 @@
               "node_modules/bootstrap/css/navigation.css",
               "node_modules/bootstrap/css/settings.css",
               "node_modules/bootstrap/css/style.css",
-              "node_modules/bootstrap/css/layers.css"
+              "node_modules/bootstrap/css/layers.css",
+              "node_modules/bootstrap/login/css/animate.css",
+              "node_modules/bootstrap/login/css/bootstraplogin.min.css",
+              "node_modules/bootstrap/login/css/font-awesome.min.css",
+              "node_modules/bootstrap/login/css/hamburgers.min.css",
+              "node_modules/bootstrap/login/css/main.css",
+              "node_modules/bootstrap/login/css/select2.min.css",
+              "node_modules/bootstrap/login/css/util.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
