@@ -12,6 +12,13 @@ pool:
 steps:
 - task: NodeTool@0
   inputs:
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Azure for Students(b13a73cb-61e2-485a-9898-90f646a71acc)'
+    appType: 'webApp'
+    WebAppName: 'KindercareFront'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
